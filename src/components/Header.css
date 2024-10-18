@@ -1,0 +1,12 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    gap: 72px;
+    background-color: rgb(255, 255, 255); 
+    position: absolute;
+    top: 0;
+    justify-content: center;
+}

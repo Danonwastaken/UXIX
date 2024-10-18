@@ -1,15 +1,12 @@
-
+import Header from '../components/Header';
 import Button from '../components/Button';
-
+import './Home.css';
 function Home() {
     return (
-        <div>
+        <div className='bg'>
             <h1>Welcome!</h1>
-            <Button
-                label="About"
-                onClick={() => window.open("http://localhost:5173/about")} 
-                color="purple"
-                size="large"
+            <Header></Header>
+            <img src="./src/Shxotou.png" alt="Img" className='image'
             />
         </div>
     );
