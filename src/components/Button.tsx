@@ -6,12 +6,13 @@ interface ButtonProps {
     onClick: () => void;
     color?: string;
     size?: string;
+    variant?: 'outlined' | 'text';
 }
 
-const Button: React.FC<ButtonProps> = ({ label, onClick, color = 'purple', size = 'medium' }) => {
+const Button: React.FC<ButtonProps> = ({ label, onClick, color, size , variant}) => {
     return (
         <button
-            className={`btn btn-${color} btn-${size}`}
+            className={`btn btn-${variant} btn-${color} btn-${size}`}
             onClick={onClick}
         >
             {label}

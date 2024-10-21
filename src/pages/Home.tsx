@@ -1,13 +1,17 @@
 import Header from '../components/Header';
-import Button from '../components/Button';
 import './Home.css';
 function Home() {
     return (
-        <div className='bg'>
-            <h1>Welcome!</h1>
+        <div>
             <Header></Header>
-            <img src="./src/Shxotou.png" alt="Img" className='image'
-            />
+            <img src="./src/Shxtou.png" alt="Img" className='image'/>
+            <div className="text-container">
+                You are my little pogchamp
+            
+            <div className="bottom-container">
+                Show me more →
+            </div>
+            </div>
         </div>
     );
 }
