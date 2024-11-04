@@ -1,0 +1,62 @@
+.about_main_head {
+    justify-content: center; 
+    font-size: 4rem;   
+    display: flex; 
+    font-weight: 700; 
+    padding-top: 10%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.descriptioncolumn {
+    max-width: 60rem;
+    justify-content: center; 
+    font-size: 1.5rem;   
+    display: flex; 
+    margin: auto;
+    flex-direction: column; 
+}
+
+.about_others_head {
+    justify-content: center; 
+    font-size: 4rem;   
+    display: flex; 
+    font-weight: 700; 
+    padding-top: 5%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.founders_box {
+    display: grid;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+
+.founders_gapping {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+.faq_gapping {
+    padding-top: 5%;
+    gap: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.description {
+    max-width: 60rem;
+    justify-content: center; 
+    font-size: 1.5rem;   
+    display: flex; 
+    margin: auto;
+}

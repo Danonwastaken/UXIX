@@ -1,0 +1,29 @@
+.founderCard {
+    display: grid;
+    grid-template-areas:
+    "Image Image"
+    "Title SocialMedia";
+    padding: 16px;
+    width: 200px;
+    align-items: center;
+}
+
+.founderImage {
+    grid-area: Image;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.founderTitle {
+    grid-area: Title;
+    margin: 12px 0;
+    font-size: 1.2em;
+}
+.founderSocialMedia {
+    grid-area: SocialMedia;
+    width: 38px;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+}
+

@@ -1,0 +1,21 @@
+.button {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    color: rgb(47,44,47);
+}
+
+.button_outlined {
+    background-color: rgb(181, 136, 205);
+    color: white;
+    border-radius: 31px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.button_large {
+    font-size: 25px;
+    padding: 7.5px 25px;
+    /*font-family: 'Rubik', sans-serif;
+    font-weight: bold;*/
+}

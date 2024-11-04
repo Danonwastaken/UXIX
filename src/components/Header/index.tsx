@@ -1,47 +1,51 @@
-import React from 'react';
-import './Header.css'; 
-import Button from '../components/Button';
-import { useNavigate } from 'react-router-dom';
 
-const Header: React.FC = () => {
+import styles from './Header.module.css';
+import  { Button } from '../../components/Button';
+import { useMatch, useNavigate } from 'react-router-dom';
+
+export const Header = () => {
     const navigate = useNavigate();
+    const isAbout = useMatch('/about')
+    const isMain = useMatch('/')
+    const isTalent = useMatch('/talent')
+    const isNews = useMatch('/news')
+    const isMerch = useMatch('/merch')
+    
     return (
-        <header className="header">
-            <img src="./src/grape.png" alt="Logo" className="logo" />
-            <div className="button-container">
+        <header className={styles.header}>
+            <img src="./src/assets/grape.png" alt="Logo" className={styles.logo} />
+            <div className={styles.button_container}>
                 <Button
                     label="Home"
                     onClick={() => navigate("/")} 
                     size="large"
-                    variant='outlined'
+                    variant={isMain ? 'outlined' : 'text'}
                 />
                 <Button
                     label="About"
                     onClick={() => navigate("/about")} 
                     size="large"
-                    variant="text"
+                    variant={isAbout ? 'outlined' : 'text'}
                 />
                 <Button
                     label="Talent"
                     onClick={() => navigate("/talent")} 
                     size="large"
-                    variant="text"
+                    variant={isTalent ? 'outlined' : 'text'}
                 />
                 <Button
                     label="News"
                     onClick={() => navigate("/news")} 
                     size="large"
-                    variant="text"
+                    variant={isNews ? 'outlined' : 'text'}
                 />
                 <Button
                     label="Merch"
                     onClick={() => navigate("/merch")} 
                     size="large"
-                    variant="text"
+                    variant={isMerch ? 'outlined' : 'text'}
                 />
             </div>
         </header>
     );
 };
-
-export default Header;

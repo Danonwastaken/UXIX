@@ -8,6 +8,14 @@ font-weight: 400;
 font-style: normal;
 }
 
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('/fonts/Rubik-Bold.ttf.woff2') format('ttf');
+font-weight: bold;
+font-style: normal;
+}
+
 body {  
     font-family: 'ProximaNova-Bold', sans-serif;
 }

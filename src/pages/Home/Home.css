@@ -1,7 +1,7 @@
 .image {
     width: 750px;
     float: right;
-    margin-top: 130px;
+    margin-top: 130px; /*115*/
 }
 .text-container {
     display: flex;               
