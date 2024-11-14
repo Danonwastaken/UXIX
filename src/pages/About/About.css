@@ -60,3 +60,8 @@
     display: flex; 
     margin: auto;
 }
+
+.abouted {
+    justify-content: center;
+    display: flex;
+}

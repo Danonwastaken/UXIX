@@ -14,10 +14,12 @@ function About() {
                 <FounderCard title="Squirtle" imageUrl1="src/assets/FoundersIcons/Founder3.png" imageUrl2="src/assets/SocialMediaIcons/twitch.png"/>
             </div>
             <div className='about_others_head'>FAQ</div>
-            <div className='faq_gapping'> 
-                <DroppingList title="What's a VTuber?" subtitle="VTubers (Virtual YouTubers) are creators that use motion-captured avatars to create content."/>
-                <DroppingList title="Can I create fanart and sell it?" subtitle="Yes"/>
-                <DroppingList title="Is it possible to collaborate with Vitubers on advertising?" subtitle="Yes, we are considering cooperation with various companies. Write to us for more information!"/>
+            <div className='abouted'>
+                <div className='faq_gapping'> 
+                    <DroppingList title="What's a VTuber?" subtitle="VTubers (Virtual YouTubers) are creators that use motion-captured avatars to create content."/>
+                    <DroppingList title="Can I create fanart and sell it?" subtitle="Yes"/>
+                    <DroppingList title="Is it possible to collaborate with Vitubers on advertising?" subtitle="Yes, we are considering cooperation with various companies. Write to us for more information!"/>
+                </div>
             </div>
             <div className='about_others_head'>HAVE A QUESTION?</div>
             <div className='description'>Contact us If you have any questions!</div>

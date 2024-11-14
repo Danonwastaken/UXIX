@@ -11,6 +11,15 @@
     border-radius: 31px;
     cursor: pointer;
     font-weight: 700;
+    
+}
+
+.button_whiteoutlined {
+    background-color: white;
+    border-radius: 31px;
+    cursor: pointer;
+    font-weight: 700;
+    
 }
 
 .button_large {

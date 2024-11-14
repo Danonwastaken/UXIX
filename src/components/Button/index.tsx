@@ -3,7 +3,7 @@ interface ButtonProps {
     label: string;
     onClick: () => void;
     size?: string;
-    variant?: 'outlined' | 'text';
+    variant?: 'outlined' | 'text' | 'whiteoutlined';
 }
 
 export const Button = ({ label, onClick, size, variant}: ButtonProps) => {

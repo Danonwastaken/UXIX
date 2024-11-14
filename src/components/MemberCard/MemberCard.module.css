@@ -1,0 +1,66 @@
+
+.MemberCardd {
+    display: grid;
+    grid-template-areas:
+    "SocialMedia Part2";
+}
+.MemberCard {
+    grid-area: Part2;
+    display: grid;
+    grid-template-areas:
+    "MCircle"
+    "Title";
+    padding: 16px;
+    width: auto;
+    align-items: center;
+    gap: 1rem;
+}
+
+.MemberTitle {
+    grid-area: Title;
+    justify-content: center;
+    font-size: 1.2rem;
+    display: flex; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 31px 0px 31px 0px;
+    padding: 7.5px;
+    font-weight: 700; 
+}
+
+.MemberSocialMedia {
+    grid-area: SocialMedia;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+.MemberIcon {
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 3px;
+}
+
+.MemberCircle {
+    grid-area: MCircle;
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    background-color: white; 
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.MemberCircleImg {
+    width: 100%; 
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.MemberCircleImg:hover {
+    transform: scale(1.1); 
+}
+

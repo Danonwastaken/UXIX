@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import styles from './DroppingList.module.css';
 
 interface DroppingListProps {
@@ -6,7 +6,7 @@ interface DroppingListProps {
     subtitle: string;
 }
 
-export const DroppingList: React.FC<DroppingListProps> = ({ title, subtitle }) => {
+export const DroppingList = ({ title,  subtitle }: DroppingListProps) => {    
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleContent = () => {
