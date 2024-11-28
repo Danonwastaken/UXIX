@@ -4,14 +4,17 @@
     align-items: center;
     height: 100px;
     width: 100%;
-    background-color: rgb(255, 255, 255, 0.85); 
+    background-color: rgb(255, 255, 255, 1); 
     position: absolute;
     top: 0;
     justify-content: center;
 }
 
 .logo {
+    padding-left: 3%;
     margin-right: auto;
+    height: 50%;
+    width: auto;
 }
 
 .button_container {

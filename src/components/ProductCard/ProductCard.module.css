@@ -1,0 +1,33 @@
+.productCard {
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 300px;
+    background-color: white;
+}
+
+.productImage {
+    width: 300px;
+    height: auto;
+}
+
+.prodictImage:hover {
+    width: 100%; 
+    height: auto;
+}
+
+.productTitle {
+    margin: 12px 0;
+    font-size: 1.2em;
+    color: rgb(47,44,47);
+}
+
+.productPrice {
+    color: rgb(105, 98, 105);
+    font-size: 1em;
+}
+
+.productPS {
+    color: rgb(47,44,47);
+    font-size: 0.8em;
+}

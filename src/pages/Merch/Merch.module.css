@@ -1,0 +1,36 @@
+.bg {
+    background-color: #fafafa;
+}
+
+.global_padding {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+
+.global_gridding {
+    display: grid;
+    justify-items: center;
+    grid-template-areas:
+    "Banner"
+    "Product";
+}
+
+.banner {
+    grid-area: Banner;
+    border-color: black;
+    border-radius: 20px;
+    border-style: solid;
+    width: 70%;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.products {
+    display: grid;
+    gap: 50px;
+    grid-template-areas: Product;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}

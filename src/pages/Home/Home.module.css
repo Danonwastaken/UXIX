@@ -1,9 +1,11 @@
 .image {
-    width: 750px;
-    float: right;
-    margin-top: 130px; /*115*/
+    max-width: 750px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
-.text-container {
+.text_container {
     display: flex;               
     flex-direction: column;  
     justify-content: center;    
@@ -13,7 +15,7 @@
     font-weight: 700; 
     font-size: 4rem;   
 }
-.bottom-container {
+.bottom_container {
     display: flex;
     flex-direction: column;  
     justify-content: center; 
@@ -21,11 +23,3 @@
     font-size: 2rem; 
 }
 
-.fixed_bottom {
-    position: fixed; 
-    bottom: 0; 
-    left: 0; 
-    right: 0; 
-    text-align: center;
-    z-index: 1; 
-}

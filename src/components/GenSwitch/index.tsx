@@ -6,8 +6,8 @@ import { useMatch, useNavigate } from 'react-router-dom';
 export const GenSwitch = () => {
     const navigate = useNavigate();
     const isGrapeX = useMatch('/talent')
-    const isGrapeMyth = useMatch('/merch')
-    const isGrapeRu = useMatch('/merch')
+    const isGrapeMyth = useMatch('/')
+    const isGrapeRu = useMatch('/')
 
     return (
         <div className={styles.switcher}>
@@ -20,13 +20,13 @@ export const GenSwitch = () => {
             />
             <Button
                 label="GrapeMyth"
-                onClick={() => navigate("/merch")} 
+                onClick={() => navigate("/")} 
                 size="large"
                 variant={isGrapeMyth ? 'whiteoutlined' : 'text'}
             />
             <Button
                 label="GrapeRu"
-                onClick={() => navigate("/merch")} 
+                onClick={() => navigate("/")} 
                 size="large"
                 variant={isGrapeRu ? 'whiteoutlined' : 'text'}
             />

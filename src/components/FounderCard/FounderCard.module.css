@@ -17,7 +17,7 @@
 .founderTitle {
     grid-area: Title;
     margin: 12px 0;
-    font-size: 1.2em;
+    font-size: 1.6em;
 }
 .founderSocialMedia {
     grid-area: SocialMedia;

@@ -32,7 +32,6 @@
     overflow: hidden; 
     transition: max-height 0.5s ease-in-out;
     grid-area: listcontent;
-    font-size: 18px;
 }
 
 .droppinglistcontent.open {

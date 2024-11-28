@@ -10,7 +10,6 @@
     color: white;
     border-radius: 31px;
     cursor: pointer;
-    font-weight: 700;
     
 }
 
@@ -18,13 +17,10 @@
     background-color: white;
     border-radius: 31px;
     cursor: pointer;
-    font-weight: 700;
-    
 }
 
 .button_large {
     font-size: 25px;
     padding: 7.5px 25px;
-    /*font-family: 'Rubik', sans-serif;
-    font-weight: bold;*/
+    font-weight: 700;
 }

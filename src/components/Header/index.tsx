@@ -8,12 +8,11 @@ export const Header = () => {
     const isAbout = useMatch('/about')
     const isMain = useMatch('/')
     const isTalent = useMatch('/talent')
-    const isNews = useMatch('/news')
     const isMerch = useMatch('/merch')
     
     return (
         <header className={styles.header}>
-            <img src="./src/assets/grape.png" alt="Logo" className={styles.logo} />
+            <img src="./src/assets/LOGO.png" alt="Logo" className={styles.logo} />
             <div className={styles.button_container}>
                 <Button
                     label="Home"
@@ -32,12 +31,6 @@ export const Header = () => {
                     onClick={() => navigate("/talent")} 
                     size="large"
                     variant={isTalent ? 'outlined' : 'text'}
-                />
-                <Button
-                    label="News"
-                    onClick={() => navigate("/news")} 
-                    size="large"
-                    variant={isNews ? 'outlined' : 'text'}
                 />
                 <Button
                     label="Merch"
