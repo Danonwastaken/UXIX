@@ -14,13 +14,15 @@ const prod = [
 function Merch() {
     return (
             <div>
-                <div className={styles.global_padding}>
-                    <div className={styles.global_gridding}>
-                        <img src="./src/assets/MerchIcons/BANNER1.png" alt="Banner" className={styles.banner}/>
-                        <div className={styles.products}>
-                            {prod.map(product => (
-                            <ProductCard title={product.title} price={product.price} ps = "*Price is VAT inclusive" imageUrl={product.imageUrl} hoverImageUrl={product.hoverImageUrl}/>
-                            ))}
+                <div className={styles.bg}>
+                    <div className={styles.global_padding}>
+                        <div className={styles.global_gridding}>
+                            <img src="./src/assets/MerchIcons/BANNER1.png" alt="Banner" className={styles.banner}/>
+                            <div className={styles.products}>
+                                {prod.map(product => (
+                                <ProductCard title={product.title} price={product.price} ps = "*Price is VAT inclusive" imageUrl={product.imageUrl} hoverImageUrl={product.hoverImageUrl}/>
+                                ))}
+                            </div>
                         </div>
                     </div>
                 </div>

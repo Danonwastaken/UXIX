@@ -27,7 +27,7 @@ export const GenSwitch = () => {
             <Button
                 label="GrapeRu"
                 onClick={() => navigate("/")} 
-                size="large"
+                size="large" 
                 variant={isGrapeRu ? 'whiteoutlined' : 'text'}
             />
         </div>
