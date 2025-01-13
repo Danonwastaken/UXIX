@@ -1,19 +1,26 @@
+.main_page {
+    display: grid;
+    grid-template-areas:
+    "Quote Imagge";
+}
 .image {
-    max-width: 750px;
+    grid-area: Imagge;
+    max-width: 90%;
     height: auto;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    align-self: end;
+    justify-self: end;
 }
 .text_container {
+    grid-area: Quote;
     display: flex;               
     flex-direction: column;  
     justify-content: center;    
     align-items: flex-start;    
-    height: 100vh;             
+    height: 100vh;       
+    max-width: 60%;      
     padding-left: 5%;   
     font-weight: 700; 
-    font-size: 4rem;   
+    font-size: 3rem;   
 }
 .bottom_container {
     display: flex;

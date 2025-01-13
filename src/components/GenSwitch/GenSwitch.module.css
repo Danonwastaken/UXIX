@@ -6,7 +6,6 @@
     width: 100%;
     display: flex;
     align-items: center;
-    position: relative;
     background-color: rgba(0, 0, 0, 0.05);
     border-radius: 31px;
 }
